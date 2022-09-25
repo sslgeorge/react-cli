@@ -2,11 +2,9 @@ import chalk from 'chalk';
 import _ from 'lodash';
 import { mkdir, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
 import { component, index, style } from '../templates/components.mjs';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = process.cwd();
 
 async function createComponentAction(input) {
   const name = path.basename(input);
