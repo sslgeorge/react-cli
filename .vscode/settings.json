@@ -1,0 +1,48 @@
+{
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "explorer.excludeGitIgnore": true,
+  "workbench.tree.indent": 20,
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#ff0000",
+    "editorIndentGuide.background": "#ff00ff"
+  },
+  "files.exclude": {
+    ".idea/shelf/": true,
+    ".idea/workspace.xml": true,
+    ".idea/httpRequests/": true,
+    ".idea/dataSources/": true,
+    ".idea/dataSources.local.xml": true,
+    "**/.idea/": true,
+    ".idea": true,
+    "**/.env.local": true,
+    "**/.env.development.local": true,
+    "**/.env.test.local": true,
+    "**/.env.production.local": true,
+    "node_modules": true,
+    ".pnp": true,
+    "**/.pnp.js": true,
+    "coverage": true,
+    ".next/": true,
+    "out/": true,
+    "build": true,
+    "**/.DS_Store": true,
+    "**/*.pem": true,
+    "**/npm-debug.log*": true,
+    "**/yarn-debug.log*": true,
+    "**/yarn-error.log*": true,
+    "**/.pnpm-debug.log*": true,
+    "**/.env*.local": true,
+    "**/.vercel": true,
+    "**/*.tsbuildinfo": true,
+    "**/next-env.d.ts": true
+  }
+}
