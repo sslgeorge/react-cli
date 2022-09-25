@@ -13,7 +13,7 @@ async function createComponentAction(input) {
   const fileName = _.kebabCase(name);
   const dirName = _.kebabCase(inputDir);
 
-  const dir = path.resolve(`${__dirname}/src/components/`, dirName, fileName);
+  const dir = path.resolve(__dirname, dirName, fileName);
   const indexFile = path.resolve(dir, 'index.ts');
   const componentFile = path.resolve(dir, `${fileName}.tsx`);
   const styleFile = path.resolve(dir, `${fileName}.styles.ts`);

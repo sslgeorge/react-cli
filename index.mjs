@@ -11,7 +11,9 @@ program.name('rcli').version(pjson.version).description('React CLI');
 
 program
   .command('component')
-  .description('create a new component in the directory /src/components')
+  .description(
+    'create a new component in the directory specified e.g rcli component ./components/MyComponent'
+  )
   .argument('<name>', 'name of the component')
   .action(createComponentAction);
 
