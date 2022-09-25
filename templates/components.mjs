@@ -1,16 +1,16 @@
-exports.style = `
+export const style = `
 import styled from '@emotion/styled';
 
 export const Container = styled.div\`\`;
 
 `;
 
-exports.index = `
+export const index = `
 export { default as <%= Name %> } from './<%= FileName %>';
 
 `;
 
-exports.component = `
+export const component = `
 import { Container } from './<%= FileName %>.styles';
 
 function <%= Name %>() {
